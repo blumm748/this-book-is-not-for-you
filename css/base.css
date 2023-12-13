@@ -6,10 +6,10 @@
 
 :root {
 	font-size: 15px;
-	--color-text: rgb(10, 9, 43);
-	--color-bg: #acacac;
-	--color-link: #aaa;
-	--color-link-hover: #fff;
+	--color-text: rgb(145, 40, 14);
+	--color-bg: #ffebd0;
+	--color-link: #000000;
+	--color-link-hover: #000000;
 	--page-padding: 1rem;
 }
 
@@ -243,11 +243,11 @@ main {
 }
 
 .color-1 {
-	--gcolor: #acacac;
+	--gcolor: #ffebd0;
 }
 
 .color-2 {
-	--gcolor: #2e2c38;
+	--gcolor: #ffebd0;
 }
 
 .blendmode-1 {
@@ -259,7 +259,7 @@ main {
 }
 
 .shadow-2 {
-	text-shadow: 0 0 10px rgba(21, 21, 86, 0.562);
+	text-shadow: 0 0 10px rgba(145, 40, 14, 0.8);
 }
 
 .gtext__box {
@@ -282,7 +282,7 @@ main {
 	height: 100%;
 	position: absolute;
 	top: 0;
-	left: 10%;
+	left: 0;
 	z-index: -1;
 	pointer-events: none;
 	grid-template-columns: repeat(3,auto);
